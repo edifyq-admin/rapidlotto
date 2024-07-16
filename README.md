@@ -1,5 +1,6 @@
 
-Setup
+## Setup
+
 After cloning the repo, navigate to the directory and run:
 
 yarn
@@ -12,7 +13,8 @@ npx hardhat compile
 
 Make sure there is no errors compiling the project.
 
-Environment
+## Environment
+
 Sign up for an account at https://www.alchemy.com/
 
 Then populate the variables in .env
@@ -21,7 +23,8 @@ After this has been done, the contracts can be deployed to Sepolia using:
 
 npx hardhat run scrips/deploy.js --network sepolia
 
-Local development
+## Local development
+
 We use hardhat to run the project locally.
 
 To start your private blockchain instance, run:
